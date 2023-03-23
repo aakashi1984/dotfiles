@@ -17,10 +17,11 @@ export LD_PRELOAD=""
 export EDITOR="vim"
 
 # alias
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+#alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias shexchat="xhost + ; su kali sh -c hexchat;"
 
-alias wireshark="wireshark -style Adwaita-Dark"
+#alias wireshark="wireshark -style Adwaita-Dark"
 
 alias ls="ls --color"
 alias vi="vim"
